@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./img/logo.jpeg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/style.css"> 
+        <title>Productos | Essen By Agus</title>
+    </head>
+
+<body>
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark m-6">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="./index.html">ESSEN By Agus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="#">Carrito</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Info & Preguntas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+         <section class="productos">
+
+            <div class="seccion_productos_articulos">
+
+            <article>
+                <img src="./img/cacerola18cm.jpeg" alt="cacerola 18 cm">
+                <h3>Cacerola 18 Cm</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button id="01" value="cacerola18" type="button" class="button-carr">Comprar</button>
+            </article>
+
+            <article>
+                <img src="./img/cacerola24cm.jpeg" alt="cacerola 24 cm">
+                <h3>Cacerola 24 Cm</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button id="02" value="cacerola24" type="button" class="button-carr">Comprar</button>
+            </article>
+
+            <article>
+                <img src="./img/mate.jpeg" alt="mate">
+                <h3>Mate</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button id="03" value="flip" type="button" class="button-carr">Comprar</button>
+            </article>
+
+            <article>
+                <img src="./img/sarten18cm.jpeg" alt="sarten 18 cm">
+                <h3>Sarten 18 Cm</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button id="04" value="sarten18" type="button" class="button-carr">Comprar</button>
+            </article>
+
+            <article>
+                <img src="./img/sarten24cm.jpeg" alt="sarten 24 cm">
+                <h3>Sarten 24 Cm</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button id="05" value="sarten24" type="button" class="button-carr">Comprar</button>
+            </article>
+
+            <article>
+                <img src="./img/wok.jpeg" alt="wok">
+                <h3>Wok</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button id="06" value="wok" type="button" class="button-carr">Comprar</button>
+            </article>
+
+            </div>
+        </section>
+
+
+        <section class="resumen_compra">
+            <h2>Productos Seleccionados</h2>
+            <div class="item" id="items_compra">
+                <!-- aca se generan los nodos para el listado de productos -->
+            </div>
+            <div>
+                <p id="totales"></p>
+            </div>
+            <button id="btn_borrar_todo">Limpiar</button>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="container footer-content">
+            <ul class="footer-info">
+                <li>San Justo. Provincia de Buenos Aires</li>
+                <li>(011) 153-009-0888</li>
+            </ul>
+            <ul class="footer-redes">
+                <li><i class="fab fa-whatsapp"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+        </div>
+        <p>© yamialvez 2022</p>
+        <p>Todos los derechos reservados</p>
+    </footer>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
